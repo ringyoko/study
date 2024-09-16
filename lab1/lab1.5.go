@@ -14,11 +14,7 @@ func main() {
 
 	sum := num1 + num2
 	difference := num1 - num2
-	product := num1 * num2
-	quotient := num1 / num2
 
 	fmt.Println("Sum:", sum)
 	fmt.Println("Difference:", difference)
-	fmt.Println("Product:", product)
-	fmt.Println("Quotient:", quotient)
 }

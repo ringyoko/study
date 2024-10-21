@@ -87,3 +87,9 @@ func main() {
 		log.Fatalf("Server failed: %v", err)
 	}
 }
+
+// GET в POSTMAN: http://localhost:8080/hello
+// POST в POSTMAN: http://localhost:8080/data . В raw: {
+//    "name": "John",
+//    "age": 111
+//}
